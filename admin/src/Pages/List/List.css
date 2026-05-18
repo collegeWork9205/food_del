@@ -1,0 +1,83 @@
+.list h2{
+    color:tomato;
+}
+
+.list-table-format{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 0.5fr;
+    padding:12px 15px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #cacaca;
+    font-size: 17px;
+    background-color:white;
+    transition: 0.5s;
+}
+
+.list-table-format.title{
+    background-color:black;
+    color:goldenrod;
+}
+.list-table-format img{
+    width: 80px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.list-table-format img:hover{
+    width:100px;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.5s;
+}
+.list-table-format:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.5s;
+}
+.list-table-format p:hover{
+    color:tomato;
+    transition: 0.5s;
+}
+.list-table-format #remove b{
+  transition: 0.5s;   
+}
+.list-table-format #remove b:hover{
+     font-size: 30px;
+     border: none;
+     transition: 0.5s;
+   }
+
+@media(max-width:600px){
+    .list-table-format{
+        grid-template-columns: 1fr 2fr 1fr 0.5fr 0.5fr;
+        justify-content: end;
+        align-content: end;
+        gap:10px;
+        font-size: 15px;
+        padding: 10px;
+        place-content: end;
+        justify-content: end;
+        align-content: end;
+    }
+
+    .list-table-format.title{
+        display: none;
+    }
+    .list-table-format.remove{
+        align-self: end;
+        justify-content: end;
+    }
+    .list-table-format img{
+    width: 40px;
+    border-radius: 15px;
+    transition: 0.5s;
+   }
+   .list-table-format img:hover{
+    width:60px;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.5s;
+   }
+   .list-table-format #remove{
+     justify-self: self-end;
+   }
+}
