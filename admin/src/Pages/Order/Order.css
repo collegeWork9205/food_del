@@ -62,7 +62,7 @@
 }
 @media (max-width:500px) {
     .order-item{
-        font-size: 10px;
+        font-size: 8px;
         grid-template-columns: 0.5fr 2fr 1fr;
         padding: 10px 4px;
         grid-column-start:auto;
