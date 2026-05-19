@@ -3,6 +3,7 @@
     margin: 30px auto;
     background-size: contain;
     position: relative;
+    border-radius:15px;
 }
 .header-content{
     position: absolute;
@@ -25,11 +26,10 @@
     color: white;
 }
 .header-content button{
-    border-radius: 50px;
+    border-radius: 5px;
     color: #777777;
     padding: 1vw 2vw;
     font-size:max(1vw,13px);
-    background-color:rgb(242, 237, 235);
     border: 1px;
     cursor: pointer;
     font-weight: 700;
@@ -54,5 +54,9 @@
     } */
     .header-content button{
         padding: 2vw 4vw;
+        font-size:8px;
     }
+    .header-content button:hover{
+    font-size:9px;
+}
 }
