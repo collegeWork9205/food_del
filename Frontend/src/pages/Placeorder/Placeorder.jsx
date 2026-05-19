@@ -72,7 +72,7 @@ useEffect(()=>{
           <input type="text" onChange={onChangehandler} value={data.zipcode} name='zipcode' placeholder='Zip Code'required/>
           <input type="text"onChange={onChangehandler} value={data.country} name='country' placeholder='Country' required/>
         </div>
-        <input type="text" onChange={onChangehandler} value={data.phone} name='phone' placeholder='Phone'required/>
+        <input type="text" maxLength='10'onChange={onChangehandler} value={data.phone} name='phone' placeholder='Phone'required/>
       </div>
       <div className="place-order-right">
          <div className="cart-total">
