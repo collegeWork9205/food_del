@@ -9,7 +9,8 @@
 }
 .explore-menu p{
     max-width: 90%;
-    columns: #808080;;
+    color: #808080;
+    text-align:justify;
 }
 .explore-menu-list{
     display: flex;
